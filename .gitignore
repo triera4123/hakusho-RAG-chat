@@ -1,0 +1,16 @@
+# APIキー・秘密情報（絶対にコミットしない）
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ローカル検証用の非公開データ（求人票PDFなど）
+pdfs/
+
+# キャッシュ類
+.chroma/
+*.log
